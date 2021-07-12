@@ -106,6 +106,10 @@ body{
     align-items: center;
 }
 
+hr{
+    margin-top:20px;
+}
+
 .inputs{
     width: 500px;
     display: flex;
