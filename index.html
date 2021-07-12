@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./assets/cart-outline.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&display=swap" rel="stylesheet">
+    <title>Willmart</title>
+</head>
+<body>
+   <header class="headContainer">
+       <h2 id="logo-target" class="logo">Will <span class="logo2">Mart</span>.com</h2>
+       <div class="buttonContainer opacity">
+            <a href="#logo-target" class="button">Home</a>
+            <a href="#ofert" class="button">Produtos</a>
+            <a href="#emails" class="button">Cadastro</a>
+       </div>
+   </header>
+   <main>
+        <div id="myCarrossel" class="carousel slide" data-ride="carousel">
+                <!-- Indicators -->
+
+            <ul class="carousel-indicators">
+
+                <li data-target="#myCarrossel" data-slide-to="0" class="active"></li>
+
+                <li data-target="#myCarrossel" data-slide-to="1"></li>
+
+                <li data-target="#myCarrossel" data-slide-to="2"></li>
+
+            </ul>
+
+                <!-- slideshow -->
+
+            <div class="carousel-inner">
+
+                <div class="carousel-item active">
+
+                    <div class="bg-dark text-light d-flex justify-content-center align-items-center carrousel-item">
+
+                        <h1 class="ofert1">Black Friday é aqui!</h1>
+
+                    </div>
+
+                </div>
+
+                <div class="carousel-item ">
+
+                    <div class="bg-warning text-light d-flex justify-content-center align-items-center carrousel-item">
+
+                        <img class="image-carousel" src="./assets/presente.png" alt="presente">
+                        <h2>Presentes para toda familia.</h2>
+
+                    </div>
+
+                </div>
+
+                <div class="carousel-item ">
+
+                    <div class="bg-danger text-light d-flex justify-content-center align-items-center carrousel-item">
+
+                        <img class="image-carousel" src="./assets/deliver.png" alt="deliver">
+                        <h2>Frete grátis e rápido!</h2>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- Controls to move  -->
+
+            <a class="carousel-control-prev" href="#myCarrossel" data-slide="prev">
+
+                <span class="carousel-control-prev-icon"></span>
+
+            </a>
+
+            <a class="carousel-control-next" href="#myCarrossel" data-slide="next">
+
+                <span class="carousel-control-next-icon"></span>
+
+            </a>
+
+        </div>
+        <!-- This is to mobile  -->
+        <div class="buttonContainer opacity-responsive">
+            <a href="#logo-target" class="button">Home</a>
+            <a href="#ofert" class="button">Produtos</a>
+            <a href="#emails" class="button">Cadastro</a>
+       </div>
+
+       <!-- Itens -->
+       <h1 class="sub-title">Preços imbativeis! </h1>
+       <div id="ofert" class="oferts">
+            <div class="product-card">
+                <img class="oferts-img" src="./assets/ps4-slim-image-block-01-en-24jul20.png" alt="ps4">
+                <div class="oferts-about">
+                    <h1>Ps4 Slim</h1>
+                    <h3>R$ 1,400,00</h3>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img class="oferts-img" src="./assets/note.png" alt="Notebook">
+                <div class="oferts-about">
+                    <h1>Notebook</h1>
+                    <h3>R$ 2,100,00</h3>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img class="oferts-img" src="./assets/cell.png" alt="Celular">
+                <div class="oferts-about">
+                    <h1>Motorola</h1>
+                    <h3>R$ 1,000,00</h3>
+                </div>
+            </div>
+
+       </div>
+       <!-- Promotional Email -->
+       <h1 class="email-title">Cadastre-se para receber novas pormoções!</h1>
+       <div class="customer-container">
+           <div id="emails" class="inputs">
+                <h2>Email</h2>
+                <input class="email-input" placeholder="Email" type="email">
+                <button class="email-button" onclick="newCustomer()">Inscrever-se</button>
+           </div>
+       </div>
+
+    </main>
+
+   
+   <footer>
+       &copy; Developed by <a class="github" href="https://github.com/AugustoBernardes">Augusto</a>
+   </footer>
+   <script src="./script.js"></script>
+   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>

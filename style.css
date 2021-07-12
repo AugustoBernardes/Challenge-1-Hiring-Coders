@@ -1,0 +1,229 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+.headContainer{
+    width: 100%;
+    background-color:rgb(18, 18, 18);
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    margin-left: 30px;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+}
+.logo2{
+    color: rgb(179, 38, 38);
+}
+
+.buttonContainer{
+    margin-right: 30px;
+    width: 30%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.opacity-responsive{
+    opacity: 0;
+}
+
+.button{
+    background-color: rgb(58,53,53);
+    padding: 12px;
+    border-radius: 10px;
+    color: white;
+    text-decoration: none;
+    box-shadow: 1px 1px rgba(248, 247, 247, 0.344) ;   
+}
+.button:hover{
+    background-color: rgb(190, 208, 208);
+    color: rgb(18, 18, 18);
+    text-decoration: none;
+}
+/* ============================================= */
+
+body{
+    background-color: royalblue;
+}
+
+.carrousel-item {
+    height: 200px;
+}
+
+.image-carousel{
+    height: 150px;
+}
+.sub-title{
+    font-size: 55px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.oferts{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.product-card{
+    height: 200px;
+    width: 450px;
+    background-color: rgba(0, 0, 0, 0.933);
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 5px;
+    box-shadow: 5px 5px rgba(18, 18, 18, 0.494);
+    margin-top: 20px;
+}
+
+.oferts-img{
+    width: 200px;
+}
+
+.oferts-about{
+    color: rgb(252, 252, 252);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.customer-container{
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputs{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(18, 18, 18);
+    color: rgb(252, 252, 252);
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.email-input{
+    text-align: center;
+}
+
+.email-button{
+    margin-top: 20px;
+    width: 150px;
+    padding: 5px;
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(58,53,53);
+    border-color: rgb(58,53,53);
+}
+
+.email-button:hover{
+    color: rgb(58,53,53);
+    background-color: white;
+}
+
+.email-title{
+    margin-top: 40px;
+    text-align: center;
+}
+
+footer{
+    background-color: rgb(18, 18, 18);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 50px;
+    font-size: 25px;
+    color: wheat;
+}
+
+.github{
+    text-decoration: none;
+    color: rgb(128, 128, 128);
+}
+
+.github:hover{
+    color: white;
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 800px) {
+    .image-carousel{
+        height: 100px;
+    }
+
+    .headContainer{
+        width: 100%;
+        background-color:rgb(18, 18, 18);
+        height: 130px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+       
+    }
+
+    .logo{
+        margin-top: 60px;
+    }
+
+    .ofert1{
+        margin-left: 60px;
+    }
+
+    .buttonContainer{
+        margin-left: 50px;
+        width: 70%;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .button{
+        padding: 10px;
+    }
+
+    .opacity{
+        opacity: 0;
+    }
+
+    .opacity-responsive{
+        width: 100%;
+        opacity: 1;
+        background-color:rgb(18, 18, 18);
+        border-radius: 0px 0px 5px 5px;
+        height: 70px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        margin-left: 0;
+        margin-bottom: 30px;
+
+    }
+
+    @media only screen and (max-width: 500px){
+        .product-card{
+            height:200px;
+            width: 350px
+        }
+
+        .oferts-img{
+            width: 150px;
+        }
+    }
+    
+}
