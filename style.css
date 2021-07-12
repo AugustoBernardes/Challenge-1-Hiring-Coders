@@ -115,6 +115,7 @@ body{
     background-color: rgb(18, 18, 18);
     color: rgb(252, 252, 252);
     padding: 30px;
+    box-shadow: 5px 5px 5px rgba(18, 18, 18, 0.494);
     border-radius: 10px;
 }
 
