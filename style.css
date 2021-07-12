@@ -196,6 +196,14 @@ footer{
     .button{
         padding: 10px;
     }
+    
+     .customer-container{
+        width: 100%;
+    }
+
+    .inputs{
+        width: 300px;
+    }
 
     .opacity{
         opacity: 0;
