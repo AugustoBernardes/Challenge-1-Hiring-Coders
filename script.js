@@ -5,10 +5,10 @@ function newCustomer(){
     validateEmail(email)
 
     if(validateEmail(email) === false){
-        return document.querySelector('.email-input').value = "" ,alert('Coloque um Email valido como : augusto@gmail.com')
+        return document.querySelector('.email-input').value = "" ,alert('Coloque um E-mail valido como : augusto@gmail.com')
     } else{
         localStorage.setItem("userEmail", JSON.stringify(email))
-        return document.querySelector('.email-input').value = "", alert('Email salvo com sucesso!!')
+        return document.querySelector('.email-input').value = "", alert('E-mail salvo com sucesso!!')
     }
     
 }
