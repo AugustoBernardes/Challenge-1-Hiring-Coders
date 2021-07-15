@@ -7,7 +7,7 @@ function newCustomer(){
     if(validateEmail(email) === false){
         return document.querySelector('.email-input').value = "" ,alert('Coloque um Email valido como : augusto@gmail.com')
     } else{
-        localStorage.setItem("userEmail", email)
+        localStorage.setItem("userEmail", JSON.stringify(email))
         return document.querySelector('.email-input').value = "", alert('Email salvo com sucesso!!')
     }
     
