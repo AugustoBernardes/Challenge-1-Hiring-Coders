@@ -86,6 +86,10 @@ body{
     margin-top: 20px;
 }
 
+.product-card:hover{
+    background-color: grey;
+}
+
 .oferts-img{
     width: 200px;
 }
