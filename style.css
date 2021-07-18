@@ -175,20 +175,6 @@ footer{
     .image-carousel{
         height: 100px;
     }
-    
-    .product-card{
-        height: 200px;
-        width: 350px;
-        background-color: rgba(0, 0, 0, 0.933);
-        padding: 10px;
-        display: flex;
-        justify-content: space-evenly;
-        border-radius: 5px;
-        box-shadow: 5px 5px 5px rgba(18, 18, 18, 0.494);
-        margin-top: 20px;
-        transition: 0.5s ease;
-        cursor:pointer;
-    }
 
     .headContainer{
         width: 100%;
@@ -249,8 +235,9 @@ footer{
     @media only screen and (max-width: 500px){
         .product-card{
             height:200px;
-            width: 350px
+            width: 300px
         }
+        
 
         .oferts-img{
             width: 150px;
