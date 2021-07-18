@@ -84,10 +84,13 @@ body{
     border-radius: 5px;
     box-shadow: 5px 5px 5px rgba(18, 18, 18, 0.494);
     margin-top: 20px;
+    transition: 0.5s ease;
+    cursor:pointer;
 }
 
 .product-card:hover{
     background-color: grey;
+    transform: scake(1.2);
 }
 
 .oferts-img{
