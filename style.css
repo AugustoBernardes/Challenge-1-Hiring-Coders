@@ -90,7 +90,7 @@ body{
 
 .product-card:hover{
     background-color: grey;
-    transform: scale(1.2);
+    transform: scale(0.5);
 }
 
 .oferts-img{
